@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE7DCF6A47D258C9489C7E5 /* libPods-GCDWebServerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80523CDFFCDC20C860B08A /* libPods-GCDWebServerUITests.a */; };
+		291F0EFF1E979CCD00E82472 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 291F0EFE1E979CCD00E82472 /* script.js */; };
 		29D2EBBB1E8F89B100F6830A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EBBA1E8F89B100F6830A /* main.m */; };
 		29D2EBBE1E8F89B200F6830A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EBBD1E8F89B200F6830A /* AppDelegate.m */; };
 		29D2EBC11E8F89B200F6830A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EBC01E8F89B200F6830A /* ViewController.m */; };
@@ -15,6 +17,15 @@
 		29D2EBC91E8F89B200F6830A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2EBC71E8F89B200F6830A /* LaunchScreen.storyboard */; };
 		29D2EBD41E8F89B200F6830A /* GCDWebServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EBD31E8F89B200F6830A /* GCDWebServerTests.m */; };
 		29D2EBDF1E8F89B200F6830A /* GCDWebServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EBDE1E8F89B200F6830A /* GCDWebServerUITests.m */; };
+		29D2EBF11E8F9E9C00F6830A /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2EBEC1E8F9E9C00F6830A /* libz.1.1.3.tbd */; };
+		29D2EBF21E8F9E9C00F6830A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2EBED1E8F9E9C00F6830A /* libz.1.2.5.tbd */; };
+		29D2EBF31E8F9E9C00F6830A /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2EBEE1E8F9E9C00F6830A /* libz.1.2.8.tbd */; };
+		29D2EBF41E8F9E9C00F6830A /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2EBEF1E8F9E9C00F6830A /* libz.1.tbd */; };
+		29D2EBF51E8F9E9C00F6830A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2EBF01E8F9E9C00F6830A /* libz.tbd */; };
+		29D2EBF71E8FA53300F6830A /* myw3schoolsimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D2EBF61E8FA53300F6830A /* myw3schoolsimage.jpg */; };
+		29D2EBF91E8FA5DD00F6830A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 29D2EBF81E8FA5DD00F6830A /* index.html */; };
+		5CC3FA48FDC1172BA9866E87 /* libPods-GCDWebServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB685496A35313F715796E3 /* libPods-GCDWebServer.a */; };
+		CB25B5CF06A7891F2C62329E /* libPods-GCDWebServerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BE94952A09A937577BC1D8 /* libPods-GCDWebServerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FB685496A35313F715796E3 /* libPods-GCDWebServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880D3BD6C9EB28362DDC6C2 /* Pods-GCDWebServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServerUITests/Pods-GCDWebServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		291F0EFE1E979CCD00E82472 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		29D2EBB61E8F89B100F6830A /* GCDWebServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDWebServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2EBBA1E8F89B100F6830A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29D2EBBC1E8F89B100F6830A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,20 @@
 		29D2EBDA1E8F89B200F6830A /* GCDWebServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDWebServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2EBDE1E8F89B200F6830A /* GCDWebServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerUITests.m; sourceTree = "<group>"; };
 		29D2EBE01E8F89B200F6830A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D2EBEC1E8F9E9C00F6830A /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		29D2EBED1E8F9E9C00F6830A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		29D2EBEE1E8F9E9C00F6830A /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		29D2EBEF1E8F9E9C00F6830A /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		29D2EBF01E8F9E9C00F6830A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		29D2EBF61E8FA53300F6830A /* myw3schoolsimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myw3schoolsimage.jpg; sourceTree = "<group>"; };
+		29D2EBF81E8FA5DD00F6830A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4EB23C5CA1046BD73CCDCE45 /* Pods-GCDWebServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServerTests/Pods-GCDWebServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E80523CDFFCDC20C860B08A /* libPods-GCDWebServerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71107BB0F68A3C63609D27FA /* Pods-GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServer/Pods-GCDWebServer.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCC33C46AA3C38508DA4323 /* Pods-GCDWebServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServerUITests/Pods-GCDWebServerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A727B1C5FF6F865C2B1223 /* Pods-GCDWebServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServerTests/Pods-GCDWebServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BE94952A09A937577BC1D8 /* libPods-GCDWebServerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C0726FD0F45544F9A637EB /* Pods-GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServer/Pods-GCDWebServer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D2EBF11E8F9E9C00F6830A /* libz.1.1.3.tbd in Frameworks */,
+				29D2EBF21E8F9E9C00F6830A /* libz.1.2.5.tbd in Frameworks */,
+				29D2EBF31E8F9E9C00F6830A /* libz.1.2.8.tbd in Frameworks */,
+				29D2EBF41E8F9E9C00F6830A /* libz.1.tbd in Frameworks */,
+				29D2EBF51E8F9E9C00F6830A /* libz.tbd in Frameworks */,
+				5CC3FA48FDC1172BA9866E87 /* libPods-GCDWebServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB25B5CF06A7891F2C62329E /* libPods-GCDWebServerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE7DCF6A47D258C9489C7E5 /* libPods-GCDWebServerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				29D2EBD21E8F89B200F6830A /* GCDWebServerTests */,
 				29D2EBDD1E8F89B200F6830A /* GCDWebServerUITests */,
 				29D2EBB71E8F89B100F6830A /* Products */,
+				F2BD9E109BD2ABB183BBD051 /* Pods */,
+				974D4E8550594D2D75DBCA72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +139,13 @@
 		29D2EBB81E8F89B100F6830A /* GCDWebServer */ = {
 			isa = PBXGroup;
 			children = (
+				29D2EBF81E8FA5DD00F6830A /* index.html */,
+				29D2EBF61E8FA53300F6830A /* myw3schoolsimage.jpg */,
 				29D2EBBC1E8F89B100F6830A /* AppDelegate.h */,
 				29D2EBBD1E8F89B200F6830A /* AppDelegate.m */,
 				29D2EBBF1E8F89B200F6830A /* ViewController.h */,
 				29D2EBC01E8F89B200F6830A /* ViewController.m */,
+				291F0EFE1E979CCD00E82472 /* script.js */,
 				29D2EBC21E8F89B200F6830A /* Main.storyboard */,
 				29D2EBC51E8F89B200F6830A /* Assets.xcassets */,
 				29D2EBC71E8F89B200F6830A /* LaunchScreen.storyboard */,
@@ -140,6 +181,34 @@
 			path = GCDWebServerUITests;
 			sourceTree = "<group>";
 		};
+		974D4E8550594D2D75DBCA72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D2EBEC1E8F9E9C00F6830A /* libz.1.1.3.tbd */,
+				29D2EBED1E8F9E9C00F6830A /* libz.1.2.5.tbd */,
+				29D2EBEE1E8F9E9C00F6830A /* libz.1.2.8.tbd */,
+				29D2EBEF1E8F9E9C00F6830A /* libz.1.tbd */,
+				29D2EBF01E8F9E9C00F6830A /* libz.tbd */,
+				1FB685496A35313F715796E3 /* libPods-GCDWebServer.a */,
+				E0BE94952A09A937577BC1D8 /* libPods-GCDWebServerTests.a */,
+				6E80523CDFFCDC20C860B08A /* libPods-GCDWebServerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2BD9E109BD2ABB183BBD051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71107BB0F68A3C63609D27FA /* Pods-GCDWebServer.debug.xcconfig */,
+				F3C0726FD0F45544F9A637EB /* Pods-GCDWebServer.release.xcconfig */,
+				C5A727B1C5FF6F865C2B1223 /* Pods-GCDWebServerTests.debug.xcconfig */,
+				4EB23C5CA1046BD73CCDCE45 /* Pods-GCDWebServerTests.release.xcconfig */,
+				2880D3BD6C9EB28362DDC6C2 /* Pods-GCDWebServerUITests.debug.xcconfig */,
+				ABCC33C46AA3C38508DA4323 /* Pods-GCDWebServerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D2EBE31E8F89B200F6830A /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
 			buildPhases = (
+				CB1C9608AFEADD5A977ACF86 /* [CP] Check Pods Manifest.lock */,
 				29D2EBB21E8F89B100F6830A /* Sources */,
 				29D2EBB31E8F89B100F6830A /* Frameworks */,
 				29D2EBB41E8F89B100F6830A /* Resources */,
+				B1DB66E62415DBB506FA8F74 /* [CP] Embed Pods Frameworks */,
+				A8ECE530773D4215D0BE4FC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D2EBE61E8F89B200F6830A /* Build configuration list for PBXNativeTarget "GCDWebServerTests" */;
 			buildPhases = (
+				1A8C582D3EED73966E154226 /* [CP] Check Pods Manifest.lock */,
 				29D2EBCB1E8F89B200F6830A /* Sources */,
 				29D2EBCC1E8F89B200F6830A /* Frameworks */,
 				29D2EBCD1E8F89B200F6830A /* Resources */,
+				080FF60AFC0310161F4D2570 /* [CP] Embed Pods Frameworks */,
+				0DB3271E4CA5F9D67779C022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D2EBE91E8F89B200F6830A /* Build configuration list for PBXNativeTarget "GCDWebServerUITests" */;
 			buildPhases = (
+				D8DA6336DAA11B2D5B7808ED /* [CP] Check Pods Manifest.lock */,
 				29D2EBD61E8F89B200F6830A /* Sources */,
 				29D2EBD71E8F89B200F6830A /* Frameworks */,
 				29D2EBD81E8F89B200F6830A /* Resources */,
+				DF817A85F982D5D6B409D3C7 /* [CP] Embed Pods Frameworks */,
+				03D9C0C7ACB0798E25518BAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +285,7 @@
 				TargetAttributes = {
 					29D2EBB51E8F89B100F6830A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4WXHX2LK83;
 						ProvisioningStyle = Automatic;
 					};
 					29D2EBCE1E8F89B200F6830A = {
@@ -247,6 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D2EBC91E8F89B200F6830A /* LaunchScreen.storyboard in Resources */,
+				291F0EFF1E979CCD00E82472 /* script.js in Resources */,
+				29D2EBF71E8FA53300F6830A /* myw3schoolsimage.jpg in Resources */,
+				29D2EBF91E8FA5DD00F6830A /* index.html in Resources */,
 				29D2EBC61E8F89B200F6830A /* Assets.xcassets in Resources */,
 				29D2EBC41E8F89B200F6830A /* Main.storyboard in Resources */,
 			);
@@ -267,6 +349,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D9C0C7ACB0798E25518BAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServerUITests/Pods-GCDWebServerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		080FF60AFC0310161F4D2570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServerTests/Pods-GCDWebServerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DB3271E4CA5F9D67779C022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServerTests/Pods-GCDWebServerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8C582D3EED73966E154226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8ECE530773D4215D0BE4FC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServer/Pods-GCDWebServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DB66E62415DBB506FA8F74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServer/Pods-GCDWebServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1C9608AFEADD5A977ACF86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DA6336DAA11B2D5B7808ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF817A85F982D5D6B409D3C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDWebServerUITests/Pods-GCDWebServerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29D2EBB21E8F89B100F6830A /* Sources */ = {
@@ -422,8 +642,10 @@
 		};
 		29D2EBE41E8F89B200F6830A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71107BB0F68A3C63609D27FA /* Pods-GCDWebServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = GCDWebServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.GCDWebServer;
@@ -433,8 +655,10 @@
 		};
 		29D2EBE51E8F89B200F6830A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C0726FD0F45544F9A637EB /* Pods-GCDWebServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = GCDWebServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.GCDWebServer;
@@ -444,6 +668,7 @@
 		};
 		29D2EBE71E8F89B200F6830A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A727B1C5FF6F865C2B1223 /* Pods-GCDWebServerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GCDWebServerTests/Info.plist;
@@ -456,6 +681,7 @@
 		};
 		29D2EBE81E8F89B200F6830A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB23C5CA1046BD73CCDCE45 /* Pods-GCDWebServerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GCDWebServerTests/Info.plist;
@@ -468,6 +694,7 @@
 		};
 		29D2EBEA1E8F89B200F6830A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2880D3BD6C9EB28362DDC6C2 /* Pods-GCDWebServerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GCDWebServerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +706,7 @@
 		};
 		29D2EBEB1E8F89B200F6830A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCC33C46AA3C38508DA4323 /* Pods-GCDWebServerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GCDWebServerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +735,7 @@
 				29D2EBE51E8F89B200F6830A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29D2EBE61E8F89B200F6830A /* Build configuration list for PBXNativeTarget "GCDWebServerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +744,7 @@
 				29D2EBE81E8F89B200F6830A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29D2EBE91E8F89B200F6830A /* Build configuration list for PBXNativeTarget "GCDWebServerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +753,7 @@
 				29D2EBEB1E8F89B200F6830A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

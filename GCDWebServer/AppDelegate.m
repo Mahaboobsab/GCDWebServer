@@ -8,7 +8,9 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    GCDWebServer* _webServer;
+}
 
 @end
 
@@ -17,6 +19,42 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Create server
+    _webServer = [[GCDWebServer alloc] init];
+    
+    // Add a handler to respond to GET requests on any URL
+    [_webServer addDefaultHandlerForMethod:@"GET"
+                              requestClass:[GCDWebServerRequest class]
+                              processBlock:^GCDWebServerResponse *(GCDWebServerRequest* request) {
+                                  
+                                  return [GCDWebServerDataResponse responseWithHTML:@"<html><body><input type='file' accept='image/*' capture='camera'></body></html>"];
+                                  
+                              }];
+    
+    // Start server on port 8080
+    [_webServer startWithPort:8080 bonjourName:nil];
+    NSLog(@"Visit %@ in your web browser", _webServer.serverURL);
+    
+//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    NSString *documentsDir = [paths firstObject];
+//    NSString* filename = @"AllPasswords";
+//    NSString *filePath = [NSString stringWithFormat:@"%@/%@.txt", documentsDir, filename];
+//    
+//    NSData*data = [NSKeyedArchiver archivedDataWithRootObject:@"Hello World"];
+//    [data writeToFile:filePath atomically:NO];
+//    
+//    // using `absoluteString` is adding "file://" in front of the path. This seems to be wrong. The following code will create a correct path string.
+//    const char *path = [[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject] fileSystemRepresentation];
+//    NSString *documents = [[NSFileManager defaultManager] stringWithFileSystemRepresentation:path length:strlen(path)];
+//    
+//    // full path to the HTML file
+//    NSString *htmlFile = [documents stringByAppendingPathComponent:filePath];
+//    
+//    // "directoryPath" has to be the path to folder with the (main) HTML, not the subfolder of the files. I have a separate folder only for the static files. GCDWebServer will search for the files by it's self - recursive.
+//    [_webServer addGETHandlerForBasePath:@"/" directoryPath: documents indexFilename:htmlFile cacheAge:0 allowRangeRequests:YES];
+//    
+//        [_webServer startWithPort:8080 bonjourName:nil];
+//        NSLog(@"Visit %@ in your web browser", _webServer.serverURL);
     return YES;
 }
 
